@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label {
+            cursor: pointer;
+    }
+
+    </style>
+
+</head>
+<body>
+    <form action="#" method="get" target="_blank"
+    autocomplete="off">
+    <section>
+        <h1>Cabeça</h1>
+        <p>O formulário</p>
+        
+        <fieldset>
+            <legend>Descrição</legend>
+            <p>
+                <label>
+                    Nome:
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                    Sou um dev
+                    <input type="checkbox" id="dev" name="dev" value="sim" checked>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Sou um dev
+                    <input type="checkbox" id="dev" name="dev" value="sim" checked>
+                </label>
+                <label>
+                    Sou um dev
+                    <input type="checkbox" id="dev" name="dev" value="sim" checked>
+                </label>
+                <label>
+                    Sou um dev
+                    <input type="checkbox" id="dev" name="dev" value="sim" checked>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Sou um dev
+                    <input type="radio" id="dev1" name="dev1" value="sim" checked>
+                </label>
+                <label>
+                    Sou um dev
+                    <input type="radio" id="dev1" name="dev1" value="sim" checked>
+                </label>
+                <label>
+                    Sou um dev
+                    <input type="radio" id="dev1" name="dev1" value="sim" checked>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Date:
+                    <input type="date" id="date" name="date" >
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Date:
+                    <input type="datetime-local" id="datetime" name="datetime" value="2020-04-20T20:00" >
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                    Cor:
+                    <input type="color" id="datetime" name="cor" value="#FF0000">
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                    E-mail:
+                    <input type="email" id="email" name="email" placeholder="ex: email@email.com">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Foto:
+                    <input type="file" id="file" name="file" accept=".png"  multiple>
+                </label>
+            </p>            
+            
+            <p>
+                <label>
+                    Number:
+                    <input type="number" id="number" name="number"  min="10" max="50" step="5">
+                </label>
+            </p>
+            
+            <p>
+                <label>
+                    Range:
+                    <input type="range" id="range" name="range"  min="0" max="10" step="5">
+
+                    <datalist>
+                        <option value=""></option>
+                    </datalist>
+                </label>
+            </p> 
+
+            <p>
+                <label>
+                    url:
+                    <input type="url" id="url" name="url" placeholde="url">
+                </label>
+            </p>
+
+            <p>
+                <label>Selecione uma opção</label>
+                    <select type="select" id="select" name="select">
+                        <optgroup label="Teste1">
+                        <option value="qualquer1" label="Valor1"></option>
+                        <option value="qualquer2" label="Valor2" selected></option>
+                        <option value="qualquer3" label="Valor3"></option>
+                        <option value="qualquer4" label="Valor4" disabled></option>
+                        <option value="qualquer5" label="Valor5"></option>
+                        </optgroup>
+
+                        <optgroup label="Teste2">
+                            <option value="qualquer1" label="Valor1"></option>
+                            <option value="qualquer2" label="Valor2" selected></option>
+                            <option value="qualquer3" label="Valor3"></option>
+                            <option value="qualquer4" label="Valor4" disabled></option>
+                            <option value="qualquer5" label="Valor5"></option>
+                            </optgroup>
+                    </select>    
+            </p>
+        
+
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+
+            </p>
+
+            <p>
+                <label for="textarea"></label>
+                <textarea name="textarea" id="textarea" rows="3" cols="9"></textarea>
+            </p>
+        </fieldset>
+    </section>
+
+    </form>
+</body>
+</html>

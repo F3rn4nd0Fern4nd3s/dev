@@ -1,0 +1,9 @@
+#txt {
+    color: red;
+    font-size: 70px;
+}
+
+p {
+    font-size: inherit; /*Continua herdando*/
+    color: initial; /*Para de herdar*/
+}

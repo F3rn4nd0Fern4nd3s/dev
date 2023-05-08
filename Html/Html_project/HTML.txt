@@ -1,0 +1,16 @@
+!DOCTYPE -> Apresenta uma copia do formato HTML, para o desenvolvedor.
+<head></head> -> 'cabeça' do html todos os dados 'Back-end' ex:Titulo.
+<h1></h1> -> Abre e fecha cabeçalho. 
+<p></p> -> Abre e fecha paragráfo.
+<b></b> -> Negrito.
+<strong></strong> -> 'Falando mais forte'.
+<i></i> -> Italico.
+<a href=""></a> -> Usado para colocar links.
+<u></u> -> Sublinhar o texto.
+<del></del> -> passa uma linha na str (como se estivesse errado a escrita.)
+<pre></pre> -> Usado para passar código (Não usar dentro do '<p>')
+<header></header> -> Usado para Contém os elementos do cabeçalho
+
+Documentation: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+List: https://www.w3schools.com/html/html_lists.asp
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements

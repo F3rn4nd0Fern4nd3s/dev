@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex; /* block */
+    justify-content: space-between; /*eixo principal */
+    flex-flow: row wrap;
+    align-items: flex-start; /*eixo penperdicular*/
+    background: yellow;
+    height: 800px;
+}
+
+.flex-item {
+    width: 100%;
+    color: #fff;
+    background: red;
+}
+
+.flex-item:nth-child(3) {
+    align-self: flex-end;
+} 
+
+.flex-item:nth-child(4) {
+    align-self: center;
+} 

@@ -1,0 +1,18 @@
+/* 
+Style    ID  Classes, atributos e pseudo-classes   Elementos e pseudo-elementos
+1        1   0                                     0
+0        0   1                                     0
+Quanto maior o número o python vai sobrescrever dos outros.
+!important -> Sobrescreve todos.
+*/
+
+#p {
+    background: red;
+}
+
+#p.p {
+    background: yellow;
+}
+p#p {
+    background: yellow;
+}
